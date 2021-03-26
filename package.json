@@ -1,0 +1,30 @@
+{
+  "name": "istheshipstillstuck",
+  "version": "1.0.1",
+  "description": "is the ship still stuck?",
+  "bin": "index.mjs",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/istheshipstillstuck.git"
+  },
+  "keywords": [
+    "ship",
+    "stuck",
+    "is",
+    "it",
+    "armchair"
+  ],
+  "author": "Ben Coe <bencoe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/istheshipstillstuck/issues"
+  },
+  "homepage": "https://github.com/bcoe/istheshipstillstuck#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
