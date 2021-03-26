@@ -3,6 +3,5 @@
 Usage:
 
 ```
-npm i istheshipstillstuck -g
-istheshipstillstuck
+npx istheshipstillstuck
 ```
