@@ -2,6 +2,7 @@
 
 // TODO(bcoe): find way to use more bleeding edge Node.js features:
 import fetch from  'node-fetch';
+import cheerio from 'cheerio';
 const resp = await fetch('https://istheshipstillstuck.com/', {
   method: 'get'
 })
@@ -10,7 +11,7 @@ if (resp.status !== 200) {
 } else {
   // Scrape https://istheshipstillstuck.com/
   const content = await resp.text()
-  // TODO(@bcoe): this regex is an abomination, make it better:
-  const match = content.match(/1376379027393482761[^>]+\>(?<answer>[^<]+)/)
-  console.info(match.groups.answer)
+  const $ = cheerio.load(content);
+  const answer = $('h1').siblings('p').first().text()
+  console.info(answer)
 }

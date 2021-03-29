@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/bcoe/istheshipstillstuck#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
     "node-fetch": "^2.6.1"
   }
 }
