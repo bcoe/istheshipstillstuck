@@ -24,7 +24,5 @@
     "url": "https://github.com/bcoe/istheshipstillstuck/issues"
   },
   "homepage": "https://github.com/bcoe/istheshipstillstuck#readme",
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  }
+  "dependencies": {}
 }
