@@ -1,6 +1,6 @@
 {
   "name": "istheshipstillstuck",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "is the ship still stuck?",
   "bin": "index.mjs",
   "main": "index.mjs",
