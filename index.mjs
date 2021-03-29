@@ -8,7 +8,7 @@ const resp = await fetch('https://istheshipstillstuck.com/api/cut-to-the-chase',
 if (resp.status !== 200) {
   throw Error(`unexpected status ${resp.status}`)
 } else {
-  // Hit https://istheshipstillstuck.com/ API:
+  // Call https://istheshipstillstuck.com/ V1 API:
   const body = await resp.json()
   console.info(body.stuck)
 }
