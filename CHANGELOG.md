@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.5](https://www.github.com/bcoe/istheshipstillstuck/compare/v1.0.4...v1.0.5) (2021-03-29)
+
+
+### Bug Fixes
+
+* **build:** use npm i rather than npm ci ([8aa2805](https://www.github.com/bcoe/istheshipstillstuck/commit/8aa2805b10811e2930016a5398019bce9a7545a8))
+
 ### 1.0.4 (2021-03-29)
 
 
