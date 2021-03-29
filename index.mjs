@@ -11,6 +11,6 @@ if (resp.status !== 200) {
   // Scrape https://istheshipstillstuck.com/
   const content = await resp.text()
   // TODO(@bcoe): this regex is an abomination, make it better:
-  const match = content.match(/6913909783548431618[^>]+\>(?<answer>[^<]+)/)
+  const match = content.match(/1376379027393482761[^>]+\>(?<answer>[^<]+)/)
   console.info(match.groups.answer)
 }
